@@ -1,0 +1,955 @@
+<openerp>
+  <data noupdate="1">
+    <record id="cn_financial_report_balanced_asset" model="account.financial.report">
+      <field name="name">资产负债表</field>
+      <field name="display_detail">no_detail</field>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_balanced_0" model="account.financial.report">
+      <field name="name">资 产</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_balanced_1" model="account.financial.report">
+      <field name="name">流动资产：</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_balanced_2" model="account.financial.report">
+      <field name="name">  货币资金</field>
+      <field eval="1" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_3" model="account.financial.report">
+      <field name="name">  短期投资</field>
+      <field eval="2" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_4" model="account.financial.report">
+      <field name="name">  应收票据</field>
+      <field eval="3" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_5" model="account.financial.report">
+      <field name="name">  应收账款</field>
+      <field eval="4" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_6" model="account.financial.report">
+      <field name="name">  预付账款</field>
+      <field eval="5" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_7" model="account.financial.report">
+      <field name="name">  应收股利</field>
+      <field eval="6" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_8" model="account.financial.report">
+      <field name="name">  应收利息</field>
+      <field eval="7" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_9" model="account.financial.report">
+      <field name="name">  其他应收款</field>
+      <field eval="8" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_10" model="account.financial.report">
+      <field name="name">  存货</field>
+      <field eval="9" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_11" model="account.financial.report">
+      <field name="name">    其中：原材料</field>
+      <field eval="10" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_12" model="account.financial.report">
+      <field name="name">          在产品</field>
+      <field eval="11" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_13" model="account.financial.report">
+      <field name="name">          库存商品</field>
+      <field eval="12" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_14" model="account.financial.report">
+      <field name="name">          周转材料</field>
+      <field eval="13" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_15" model="account.financial.report">
+      <field name="name">  其他流动资产</field>
+      <field eval="14" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_16" model="account.financial.report">
+      <field name="name">    流动资产合计</field>
+      <field eval="15" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_17" model="account.financial.report">
+      <field name="name">非流动资产：</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_balanced_18" model="account.financial.report">
+      <field name="name">  长期债券投资</field>
+      <field eval="16" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_19" model="account.financial.report">
+      <field name="name">  长期股权投资</field>
+      <field eval="17" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_20" model="account.financial.report">
+      <field name="name">  固定资产原价</field>
+      <field eval="18" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_21" model="account.financial.report">
+      <field name="name">  减：累计折旧</field>
+      <field eval="19" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_22" model="account.financial.report">
+      <field name="name">  固定资产账面价值</field>
+      <field eval="20" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_23" model="account.financial.report">
+      <field name="name">  在建工程</field>
+      <field eval="21" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_24" model="account.financial.report">
+      <field name="name">  工程物资</field>
+      <field eval="22" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_25" model="account.financial.report">
+      <field name="name">  固定资产清理</field>
+      <field eval="23" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_26" model="account.financial.report">
+      <field name="name">  生产性生物资产</field>
+      <field eval="24" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_27" model="account.financial.report">
+      <field name="name">  无形资产</field>
+      <field eval="25" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_28" model="account.financial.report">
+      <field name="name">  开发支出</field>
+      <field eval="26" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_29" model="account.financial.report">
+      <field name="name">  长期待摊费用</field>
+      <field eval="27" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_30" model="account.financial.report">
+      <field name="name">  其他非流动资产</field>
+      <field eval="28" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_31" model="account.financial.report">
+      <field name="name">     非流动资产合计</field>
+      <field eval="29" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_32" model="account.financial.report">
+      <field name="name">      资产总计</field>
+      <field eval="30" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_33" model="account.financial.report">
+      <field name="name">负债和所有者权益</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_balanced_34" model="account.financial.report">
+      <field name="name">流动负债：</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_balanced_35" model="account.financial.report">
+      <field name="name">  短期借款</field>
+      <field eval="31" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_36" model="account.financial.report">
+      <field name="name">  应付票据</field>
+      <field eval="32" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_37" model="account.financial.report">
+      <field name="name">  应付账款</field>
+      <field eval="33" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_38" model="account.financial.report">
+      <field name="name">  预收账款</field>
+      <field eval="34" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_39" model="account.financial.report">
+      <field name="name">  应付职工薪酬</field>
+      <field eval="35" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_40" model="account.financial.report">
+      <field name="name">  应交税费</field>
+      <field eval="36" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_41" model="account.financial.report">
+      <field name="name">  应付利息</field>
+      <field eval="37" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_42" model="account.financial.report">
+      <field name="name">  应付利润</field>
+      <field eval="38" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_43" model="account.financial.report">
+      <field name="name">  其他应付款</field>
+      <field eval="39" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_44" model="account.financial.report">
+      <field name="name">  其他流动负债</field>
+      <field eval="40" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_45" model="account.financial.report">
+      <field name="name">    流动负债合计</field>
+      <field eval="41" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_46" model="account.financial.report">
+      <field name="name">非流动负债：</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_balanced_47" model="account.financial.report">
+      <field name="name">  长期借款</field>
+      <field eval="42" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_48" model="account.financial.report">
+      <field name="name">  长期应付款</field>
+      <field eval="43" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_49" model="account.financial.report">
+      <field name="name">  递延收益</field>
+      <field eval="44" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_50" model="account.financial.report">
+      <field name="name">  其他非流动负债</field>
+      <field eval="45" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_51" model="account.financial.report">
+      <field name="name">    非流动负债合计</field>
+      <field eval="46" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_52" model="account.financial.report">
+      <field name="name">      负债合计</field>
+      <field eval="47" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_53" model="account.financial.report">
+      <field name="name">所有者权益（或股东权益）：</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_balanced_54" model="account.financial.report">
+      <field name="name">  实收资本（或股本）</field>
+      <field eval="48" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_55" model="account.financial.report">
+      <field name="name">  资本公积</field>
+      <field eval="49" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_56" model="account.financial.report">
+      <field name="name">  盈余公积</field>
+      <field eval="50" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_57" model="account.financial.report">
+      <field name="name">  未分配利润</field>
+      <field eval="51" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_58" model="account.financial.report">
+      <field name="name">    所有者权益（或股东权益）合计</field>
+      <field eval="52" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_balanced_59" model="account.financial.report">
+      <field name="name">      负债和所有者权益（或股东权益）总计</field>
+      <field eval="53" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss" model="account.financial.report">
+      <field name="name">利润表</field>
+      <field name="display_detail">no_detail</field>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_0" model="account.financial.report">
+      <field name="name">一、营业收入</field>
+      <field eval="1" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_1" model="account.financial.report">
+      <field name="name">减：营业成本</field>
+      <field eval="2" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_2" model="account.financial.report">
+      <field name="name">  营业税金及附加</field>
+      <field eval="3" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_3" model="account.financial.report">
+      <field name="name">   其中：消费税</field>
+      <field eval="4" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_4" model="account.financial.report">
+      <field name="name">         营业税</field>
+      <field eval="5" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_5" model="account.financial.report">
+      <field name="name">         城市维护建设税</field>
+      <field eval="6" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_6" model="account.financial.report">
+      <field name="name">         资源税</field>
+      <field eval="7" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_7" model="account.financial.report">
+      <field name="name">         土地增值税</field>
+      <field eval="8" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_8" model="account.financial.report">
+      <field name="name">         城镇土地使用税、房产税、车船税、印花税</field>
+      <field eval="9" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_9" model="account.financial.report">
+      <field name="name">         教育费附加、矿产资源补偿费、排污费</field>
+      <field eval="10" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_10" model="account.financial.report">
+      <field name="name">  销售费用</field>
+      <field eval="11" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_11" model="account.financial.report">
+      <field name="name">   其中：商品维修费</field>
+      <field eval="12" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_12" model="account.financial.report">
+      <field name="name">         广告费和业务宣传费</field>
+      <field eval="13" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_13" model="account.financial.report">
+      <field name="name">  管理费用</field>
+      <field eval="14" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_14" model="account.financial.report">
+      <field name="name">   其中：开办费</field>
+      <field eval="15" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_15" model="account.financial.report">
+      <field name="name">         业务招待费</field>
+      <field eval="16" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_16" model="account.financial.report">
+      <field name="name">         研究费用</field>
+      <field eval="17" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_17" model="account.financial.report">
+      <field name="name">  财务费用</field>
+      <field eval="18" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_18" model="account.financial.report">
+      <field name="name">   其中：利息费用（收入以“-”号填列）</field>
+      <field eval="19" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_19" model="account.financial.report">
+      <field name="name">加：投资收益（损失以“-”号填列）</field>
+      <field eval="20" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_20" model="account.financial.report">
+      <field name="name">二、营业利润（亏损以“-”号填列）</field>
+      <field eval="21" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_21" model="account.financial.report">
+      <field name="name">加：营业外收入</field>
+      <field eval="22" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_22" model="account.financial.report">
+      <field name="name">    其中：政府补助</field>
+      <field eval="23" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_23" model="account.financial.report">
+      <field name="name">减：营业外支出</field>
+      <field eval="24" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_24" model="account.financial.report">
+      <field name="name">     其中：坏账损失</field>
+      <field eval="25" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_25" model="account.financial.report">
+      <field name="name">         无法收回的长期债券投资损失</field>
+      <field eval="26" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_26" model="account.financial.report">
+      <field name="name">         无法收回的长期股权投资损失</field>
+      <field eval="27" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_27" model="account.financial.report">
+      <field name="name">         自然灾害等不可抗力因素造成的损失</field>
+      <field eval="28" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_28" model="account.financial.report">
+      <field name="name">         税收滞纳金</field>
+      <field eval="29" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_29" model="account.financial.report">
+      <field name="name">三、利润总额（亏损总额以“-”号填列）</field>
+      <field eval="30" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_30" model="account.financial.report">
+      <field name="name">减：所得税费用</field>
+      <field eval="31" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_profit_loss_31" model="account.financial.report">
+      <field name="name">四、净利润（净亏损以“-”号填列）</field>
+      <field eval="32" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow" model="account.financial.report">
+      <field name="name">现金流量表</field>
+      <field name="display_detail">no_detail</field>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_0" model="account.financial.report">
+      <field name="name">一、经营活动产生的现金流量：</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_1" model="account.financial.report">
+      <field name="name">    销售产成品、商品、提供劳务收到的现金</field>
+      <field eval="1" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_2" model="account.financial.report">
+      <field name="name">    收到其他与经营活动有关的现金</field>
+      <field eval="2" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_3" model="account.financial.report">
+      <field name="name">    购买原材料、商品、接受劳务支付的现金</field>
+      <field eval="3" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_4" model="account.financial.report">
+      <field name="name">    支付的职工薪酬</field>
+      <field eval="4" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_5" model="account.financial.report">
+      <field name="name">    支付的税费</field>
+      <field eval="5" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_6" model="account.financial.report">
+      <field name="name">    支付其他与经营活动有关的现金</field>
+      <field eval="6" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_7" model="account.financial.report">
+      <field name="name">    经营活动产生的现金流量净额</field>
+      <field eval="7" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_8" model="account.financial.report">
+      <field name="name">二、投资活动产生的现金流量：</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_9" model="account.financial.report">
+      <field name="name">    收回短期投资、长期债券投资和长期股权投资收到的现金</field>
+      <field eval="8" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_10" model="account.financial.report">
+      <field name="name">    取得投资收益收到的现金</field>
+      <field eval="9" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_11" model="account.financial.report">
+      <field name="name">    处置固定资产、无形资产和其他非流动资产收回的现金净额</field>
+      <field eval="10" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_12" model="account.financial.report">
+      <field name="name">    短期投资、长期债券投资和长期股权投资支付的现金</field>
+      <field eval="11" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_13" model="account.financial.report">
+      <field name="name">    购建固定资产、无形资产和其他非流动资产支付的现金</field>
+      <field eval="12" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_14" model="account.financial.report">
+      <field name="name">    投资活动产生的现金流量净额</field>
+      <field eval="13" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_15" model="account.financial.report">
+      <field name="name">三、筹资活动产生的现金流量：</field>
+      <field eval="False" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">sum</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_16" model="account.financial.report">
+      <field name="name">    取得借款收到的现金</field>
+      <field eval="14" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_17" model="account.financial.report">
+      <field name="name">    吸收投资者投资收到的现金</field>
+      <field eval="15" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_18" model="account.financial.report">
+      <field name="name">    偿还借款本金支付的现金</field>
+      <field eval="16" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_19" model="account.financial.report">
+      <field name="name">    偿还借款利息支付的现金</field>
+      <field eval="17" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_20" model="account.financial.report">
+      <field name="name">    分配利润支付的现金</field>
+      <field eval="18" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_21" model="account.financial.report">
+      <field name="name">    筹资活动产生的现金流量净额</field>
+      <field eval="19" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_22" model="account.financial.report">
+      <field name="name">四、现金净增加额</field>
+      <field eval="20" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_23" model="account.financial.report">
+      <field name="name">加：期初现金余额</field>
+      <field eval="21" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+    <record id="cn_financial_report_cash_flow_24" model="account.financial.report">
+      <field name="name">五、期末现金余额</field>
+      <field eval="22" name="sequence"/>
+      <field eval="1" name="sign"/>
+      <field name="display_detail">no_detail</field>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
+      <field name="type">accounts</field>
+    </record>
+  </data>
+</openerp>
