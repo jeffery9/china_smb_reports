@@ -98,7 +98,7 @@
       <field eval="11" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_1"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_10"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_12" model="account.financial.report">
@@ -106,7 +106,7 @@
       <field eval="12" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_1"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_10"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_13" model="account.financial.report">
@@ -114,7 +114,7 @@
       <field eval="13" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_1"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_10"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_14" model="account.financial.report">
@@ -122,7 +122,7 @@
       <field eval="14" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_1"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_10"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_15" model="account.financial.report">
@@ -138,7 +138,7 @@
       <field eval="16" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_1"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_0"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_17" model="account.financial.report">
@@ -146,7 +146,7 @@
       <field eval="17" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_1"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_0"/>
       <field name="type">sum</field>
     </record>
     <record id="cn_financial_report_balanced_18" model="account.financial.report">
@@ -258,7 +258,7 @@
       <field eval="31" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_17"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_0"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_32" model="account.financial.report">
@@ -266,7 +266,7 @@
       <field eval="32" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_17"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_0"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_33" model="account.financial.report">
@@ -274,7 +274,7 @@
       <field eval="33" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_17"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_asset"/>
       <field name="type">sum</field>
     </record>
     <record id="cn_financial_report_balanced_34" model="account.financial.report">
@@ -370,7 +370,7 @@
       <field eval="45" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_34"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_33"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_46" model="account.financial.report">
@@ -378,7 +378,7 @@
       <field eval="46" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_34"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_33"/>
       <field name="type">sum</field>
     </record>
     <record id="cn_financial_report_balanced_47" model="account.financial.report">
@@ -418,7 +418,7 @@
       <field eval="51" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_46"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_33"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_52" model="account.financial.report">
@@ -426,7 +426,7 @@
       <field eval="52" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_46"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_33"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_53" model="account.financial.report">
@@ -434,7 +434,7 @@
       <field eval="53" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_46"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_33"/>
       <field name="type">sum</field>
     </record>
     <record id="cn_financial_report_balanced_54" model="account.financial.report">
@@ -474,7 +474,7 @@
       <field eval="58" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_53"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_33"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_balanced_59" model="account.financial.report">
@@ -482,7 +482,7 @@
       <field eval="59" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_balanced_53"/>
+      <field name="parent_id" ref="cn_financial_report_balanced_33"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss" model="account.financial.report">
@@ -503,7 +503,7 @@
       <field eval="1" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_0"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_2" model="account.financial.report">
@@ -511,7 +511,7 @@
       <field eval="2" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_0"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_3" model="account.financial.report">
@@ -519,7 +519,7 @@
       <field eval="3" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_2"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_4" model="account.financial.report">
@@ -527,7 +527,7 @@
       <field eval="4" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_2"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_5" model="account.financial.report">
@@ -535,7 +535,7 @@
       <field eval="5" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_2"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_6" model="account.financial.report">
@@ -543,7 +543,7 @@
       <field eval="6" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_2"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_7" model="account.financial.report">
@@ -551,7 +551,7 @@
       <field eval="7" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_2"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_8" model="account.financial.report">
@@ -559,7 +559,7 @@
       <field eval="8" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_2"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_9" model="account.financial.report">
@@ -567,7 +567,7 @@
       <field eval="9" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_2"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_10" model="account.financial.report">
@@ -575,7 +575,7 @@
       <field eval="10" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_0"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_11" model="account.financial.report">
@@ -583,7 +583,7 @@
       <field eval="11" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_10"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_12" model="account.financial.report">
@@ -591,7 +591,7 @@
       <field eval="12" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_10"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_13" model="account.financial.report">
@@ -599,7 +599,7 @@
       <field eval="13" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_0"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_14" model="account.financial.report">
@@ -607,7 +607,7 @@
       <field eval="14" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_13"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_15" model="account.financial.report">
@@ -615,7 +615,7 @@
       <field eval="15" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_13"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_16" model="account.financial.report">
@@ -623,7 +623,7 @@
       <field eval="16" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_13"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_17" model="account.financial.report">
@@ -631,7 +631,7 @@
       <field eval="17" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_0"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_18" model="account.financial.report">
@@ -639,7 +639,7 @@
       <field eval="18" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_17"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_19" model="account.financial.report">
@@ -647,7 +647,7 @@
       <field eval="19" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_0"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_20" model="account.financial.report">
@@ -663,7 +663,7 @@
       <field eval="21" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_20"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_22" model="account.financial.report">
@@ -671,7 +671,7 @@
       <field eval="22" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_21"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_23" model="account.financial.report">
@@ -679,7 +679,7 @@
       <field eval="23" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_20"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_24" model="account.financial.report">
@@ -687,7 +687,7 @@
       <field eval="24" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_23"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_25" model="account.financial.report">
@@ -695,7 +695,7 @@
       <field eval="25" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_23"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_26" model="account.financial.report">
@@ -703,7 +703,7 @@
       <field eval="26" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_23"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_27" model="account.financial.report">
@@ -711,7 +711,7 @@
       <field eval="27" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_23"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_28" model="account.financial.report">
@@ -719,7 +719,7 @@
       <field eval="28" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_23"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_29" model="account.financial.report">
@@ -735,7 +735,7 @@
       <field eval="30" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_profit_loss"/>
+      <field name="parent_id" ref="cn_financial_report_profit_loss_29"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss_31" model="account.financial.report">
@@ -820,7 +820,7 @@
       <field eval="8" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_cash_flow_0"/>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
       <field name="type">sum</field>
     </record>
     <record id="cn_financial_report_cash_flow_9" model="account.financial.report">
@@ -876,7 +876,7 @@
       <field eval="15" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_cash_flow_8"/>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
       <field name="type">sum</field>
     </record>
     <record id="cn_financial_report_cash_flow_16" model="account.financial.report">
@@ -932,7 +932,7 @@
       <field eval="22" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_cash_flow_15"/>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_cash_flow_23" model="account.financial.report">
@@ -940,7 +940,7 @@
       <field eval="23" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_cash_flow_15"/>
+      <field name="parent_id" ref="cn_financial_report_cash_flow_22"/>
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_cash_flow_24" model="account.financial.report">
@@ -948,7 +948,7 @@
       <field eval="24" name="sequence"/>
       <field eval="1" name="sign"/>
       <field name="display_detail">no_detail</field>
-      <field name="parent_id" ref="cn_financial_report_cash_flow_15"/>
+      <field name="parent_id" ref="cn_financial_report_cash_flow"/>
       <field name="type">accounts</field>
     </record>
   </data>
