@@ -486,7 +486,7 @@
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss" model="account.financial.report">
-      <field name="name">小企业利润表</field>
+      <field name="name">小企业损益表</field>
       <field name="display_detail">no_detail</field>
       <field name="type">sum</field>
     </record>
