@@ -1,7 +1,7 @@
 <openerp>
   <data noupdate="1">
     <record id="cn_financial_report_balanced_asset" model="account.financial.report">
-      <field name="name">资产负债表</field>
+      <field name="name">SMB_资产负债表</field>
       <field name="display_detail">no_detail</field>
       <field name="type">sum</field>
     </record>
@@ -486,7 +486,7 @@
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_profit_loss" model="account.financial.report">
-      <field name="name">利润表</field>
+      <field name="name">SMB利润表</field>
       <field name="display_detail">no_detail</field>
       <field name="type">sum</field>
     </record>
@@ -747,7 +747,7 @@
       <field name="type">accounts</field>
     </record>
     <record id="cn_financial_report_cash_flow" model="account.financial.report">
-      <field name="name">现金流量表</field>
+      <field name="name">SMB现金流量表</field>
       <field name="display_detail">no_detail</field>
       <field name="type">sum</field>
     </record>
